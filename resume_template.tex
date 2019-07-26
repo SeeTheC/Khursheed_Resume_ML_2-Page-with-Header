@@ -1,0 +1,175 @@
+\documentclass[a4paper,10pt]{article}
+%-----------------------------------------------------------
+% {{{
+
+%for courses
+\usepackage{changepage}
+
+%\usepackage[top=0.75in, bottom=0.75in, left=0.55in, right=0.85in]{geometry}
+\usepackage[top=0.75in, bottom=0.5in, left=0.5in, right=0.5in]{geometry}
+
+
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{palatino}
+\usepackage{booktabs}
+\fontfamily{SansSerif}
+\selectfont
+
+\usepackage[T1]{fontenc}
+\usepackage[ansinew]{inputenc}
+% \usepackage{helvetica}
+% \usepackage{array}
+\usepackage{color}
+\definecolor{lightgray}{rgb}{0.83, 0.83, 0.83}
+
+\definecolor{gainsboro}{rgb}{0.86, 0.86, 0.86}
+\usepackage{color, colortbl}
+%Light gray:
+\definecolor{Gray}{gray}{0.94}
+
+\textheight=10in
+\raggedbottom
+% \raggedright
+\setlength{\tabcolsep}{0in}
+\newcommand{\isep}{-2 pt}
+\newcommand{\sectsep}{-0.3cm}
+\newcommand{\lsep}{-0.5cm}
+\newcommand{\psep}{-0.5cm}
+\newcommand{\hsep}{-0.6cm}
+\newcommand{\bsep}{-0.55cm}
+\renewcommand{\labelitemii}{$\circ$}
+% Adjust margins
+%\addtolength{\oddsidemargin}{-0.375in}
+%\addtolength{\evensidemargin}{-0.375in}
+%\addtolength{\textwidth}{1.75in}
+%\addtolength{\topmargin}{0.1375in}
+%\addtolength{\textheight}{1.75in}
+\pagestyle{empty}
+% }}}
+%-----------------------------------------------------------
+%Custom commands
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+
+ \newcommand{\resheading}[1]{{\small \colorbox{lightgray}{\begin{minipage}{0.975\textwidth}{\textbf{#1 \vphantom{p\^{E}}}}\end{minipage}}}}
+ 
+\newcommand{\ressubheading}[3]{
+\begin{tabular*}{6.62in}{l @{\extracolsep{\fill}} r}
+    \textsc{{\textbf{#1}}} & \textsc{\textit{[#2]}} \\
+\end{tabular*}\vspace{-8pt}}
+% \textit{#3} &  \\
+%-----------------------------------------------------------
+
+
+
+\begin{document}
+
+%{{{
+\hspace{0.5cm}\\
+\hspace{0.5cm}\\
+\hspace{0.5cm}\\
+\hspace{0.5cm}\\
+\hspace{0.5cm}\\
+\hspace{0.5cm}\\
+\hspace{0.5cm}\\
+\hspace{0.5cm}\\
+\hspace{0.5cm}\\
+\hspace{0.5cm}\\
+\hspace{0.5cm}\\
+\hspace{0.5cm}\\
+\hspace{0.5cm}\\[-0.3cm]
+% }}}
+
+
+\resheading{\textbf{\large FIELDS OF INTEREST}}\\[\hsep]
+%{{{
+\\[0.1cm]
+\noindent
+\begin{minipage}{.35\textwidth}
+		
+\end{minipage}
+\vspace{0.2cm}
+%}}}
+
+
+\resheading{\textbf{\large WORK EXPERIENCE}}\\[\lsep] \\[-0.4cm]
+%{{{
+\begin{itemize}
+    \item <content here>
+\end{itemize}
+%}}}
+
+\resheading{\textbf{\large MAJOR PROJECTS and SEMINAR}}\\[\lsep] 
+%{{{
+\\[-0.4cm]
+\begin{itemize}
+    \item <content here>
+\end{itemize}		
+%}}}
+
+\resheading{\textbf{\large POSTGRADUATE PROJECTS}}\\[\lsep]
+%{{{
+\\[-0.4cm]
+\begin{itemize}
+    \item <content here>
+\end{itemize}
+%}}}
+
+\resheading{\textbf{\large UNDERGRADUATE PROJECTS}}\\[\lsep]
+%{{{
+\\[-0.4cm]
+\begin{itemize}
+    \item <content here>
+\end{itemize}
+%}}}
+
+\resheading{\textbf{\large SCHOLASTIC ACHIEVEMENTS}} \\[\lsep] \\[-0.4cm]
+%{{{
+\begin{itemize}
+    \item <content here>
+\end{itemize}
+%}}}
+
+
+\resheading{\textbf{\large KEY COURSES TAKEN}}\\[\hsep]
+%{{{
+\\[0.1cm]
+\noindent
+\begin{minipage}{.35\textwidth}
+		
+\end{minipage}
+\vspace{0.2cm}
+%}}}
+
+
+\resheading{\textbf{\large TECHNICAL SKILLS}} \\[\lsep] \\[-0.4cm]
+%{{{
+\begin{itemize}
+  \item <content here>
+\end{itemize}
+%}}}
+
+
+
+\resheading{\textbf{\large  POSITIONS OF RESPONSIBILITY}}\\[\lsep] 
+%{{{
+\\[-0.4cm]
+\begin{itemize}
+           \item <content here>
+\end{itemize}
+%}}}
+
+
+
+
+\resheading{\textbf{\large EXTRA-CURRICULAR ACTIVITIES}}\\ [\lsep]
+%{{{
+\begin{itemize}
+         \item <content here>
+\end{itemize}
+%}}}
+
+
+\end{document}
+
